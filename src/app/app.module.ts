@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { GreetingComponent } from './components/greeting/greeting.component';
 import { ListsModule } from './modules/lists/lists.module';
+import { ContactsListComponent } from './components/contacts-list/contacts-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GreetingComponent
+    GreetingComponent,
+    ContactsListComponent
   ],
   imports: [
     BrowserModule,

@@ -327,9 +327,12 @@
 
 <div class="content" role="main">
   <!-- Input para trabajar con NgModel -->
-  <input type="text" placeholder="Type a user" [(ngModel)]="user">
-  <app-greeting [name]="user" (msgEmitter)="receiveMsgFromChild($event)"></app-greeting>
+  <!-- <input type="text" placeholder="Type a user" [(ngModel)]="user"> -->
+  <!-- <app-greeting [name]="user" (msgEmitter)="receiveMsgFromChild($event)"></app-greeting> -->
+
+  <app-contacts-list></app-contacts-list>
 </div>
+
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
